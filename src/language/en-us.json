@@ -1,0 +1,189 @@
+{
+  "title": {
+    "home": "Home",
+    "city": "Switchover City",
+    "goodsSearch": "Commodity Classification",
+    "screen": "Brands",
+    "store": "Shop Lists",
+    "storeDetail": "Store details",
+    "panoramic": "Panoramic collection",
+    "goodDetail": "Product details",
+    "find": "Discovery",
+    "user": "Me",
+    "language": "Language",
+    "set": "Setting",
+    "accountSetting": "Account details",
+    "wx": "Login Method",
+    "login": "Login",
+    "registered": "Quick registration",
+    "footprint": "History",
+    "collection": "Collection",
+    "changePassword": "Change password",
+    "retrievePassword": "Forget the password",
+    "search": "Search",
+    "latest": "Latest selection",
+    "goodsSell": "Sales"
+  },
+  "tab": {
+    "home": "Home",
+    "find": "Discovery",
+    "user": "Me"
+  },
+  "home": {
+    "search": "Search",
+    "storeEntity": "Store",
+    "seeAll": "All",
+    "todayNewSelection": "Latest selection",
+    "panoramicCollocation": "Panoramic collocation",
+    "sellGoodThings": "Sales",
+    "notNet": "The net is down! Try to refresh",
+    "refresh": "refresh",
+    "china": "China",
+    "singapore": "Singapore"
+  },
+  "city": {
+    "currentCity": "The current location of the city",
+    "search": "Search",
+    "placeholder": "Search",
+    "noData": "No search for related data"
+  },
+  "goodsSearch": {
+    "navList": [{
+        "text": "All"
+      },
+      {
+        "text": "Popularity"
+      },
+      {
+        "text": "New"
+      },
+      {
+        "text": "Screen"
+      }
+    ]
+  },
+  "screen": {
+    "reset": "Reset",
+    "sure": "Add",
+    "open": "Open",
+    "close": "Close"
+  },
+  "storeDetail": {
+    "time": "Business Hours:",
+    "phone": "Contact:"
+  },
+  "goodDetail": {
+    "code": "SKU:",
+    "origin": "Place:",
+    "num": "Item No:",
+    "brand": "Brand:",
+    "size": "Size:",
+    "website": "Website:",
+    "commodityDetails": "PRODUCT DETAILS",
+    "ParameterSpecification": "SPECIFICATION"
+  },
+  "user": {
+    "nickName": "Nickname",
+    "accountNumber": "ID",
+    "collection": "Collection",
+    "footprint": "History",
+    "mixgo": "MixGo",
+    "setUp": "Setup",
+    "loginRegister": "Login/Register",
+    "recommended": "Recommendation"
+  },
+  "setup": {
+    "language": "Language",
+    "chinese": "Chinese",
+    "english": "English",
+    "notSet": "Not set",
+    "boy": "Man",
+    "girl": "Woman",
+    "personalData": "Personal data",
+    "nickname": "Nickname",
+    "headPortrait": "Profile picture",
+    "personalizedSignature": "Signature",
+    "sex": "Gender",
+    "birthday": "Birthday",
+    "profession": "Profession",
+    "shippingAddress": "Shipping address",
+    "accountSecurity": "Account security",
+    "aboutUs": "About us"
+  },
+  "setlang": {
+    "chinese": "Chinese",
+    "english": "English"
+  },
+  "wxcommand": {
+    "loginMethos": "Recommended login method",
+    "account": "WeChat account"
+  },
+  "login": {
+    "phone": "Please enter phone number",
+    "password": "Please enter your password",
+    "login": "Login",
+    "sign": "Quick registration",
+    "forgetPassword": "Forget Password"
+
+  },
+  "register": {
+    "phone": "Please enter phone number",
+    "password": "Input password",
+    "confirmPassword": "Please enter again",
+    "immediatelyVerify": "Immediately verify",
+    "pleaseEnter": "Please enter verification code ",
+    "registered": "Quick registration",
+    "hasAccount": "Existing account?",
+    "login": "Login now"
+  },
+  "alert": {
+    "tokenErr": "The account has been forced down, please relogin",
+    "accountErr": "Account not login",
+    "collected": "Successful collection",
+    "cancelCollected": "Remove collection",
+    "praise": "Praise of success",
+    "praised": "Praised",
+    "footprint": "Remove history",
+    "verificationCode": "The verification code has been forward",
+    "loginSuccess": "login successfully!",
+    "passwordChanged": "password changed successfully!",
+    "phone": "Mobile phone format error",
+    "password": "Password format error",
+    "comparePass": "Password does not match",
+    "code": "Verification code error",
+    "ewm": "More wonderful, at APP",
+    "loginPhone": "Please input phone",
+    "loginPassword": "Please input password",
+    "addressErr": "Address resolution failure",
+    "loginFail": "Login failed, please login again"
+  },
+  "keySearch": {
+    "placeholder": "Search",
+    "search": "Search"
+  },
+  "goodsList": {
+    "noData": "No More"
+  },
+  "mixgo": {
+    "contactUs": "Contact us",
+    "ewm": "App can experience AR effect by downloading Scan QR code",
+    "des": "Established in Singapore, MixGo, is an Augmented Reality(AR) company that allows product visualisation in 3D. We believe in empowering enterprises with instant visualizations.We understand business, and sought to value add, and further enhance their edge ",
+    "user": "Mr.Guan",
+    "phone": "+65 98329699",
+    "email": "enquiry@mixgo.com",
+    "position": "69 Ubi Road 1 #08-30, Oxley Bizhub, Singapore 408731"
+  },
+  "changePassword": {
+    "inputPassword": "Input  password (at least 6 characters)",
+    "updateAcknowledge": "Confirm the change",
+    "PasswordPrompt": "Password must be at least 6 characters and may contain numbers, upper and lowercase letters, and standard symbols"
+
+  },
+  "retrievePassword": {
+    "done": "Retrieve password"
+  },
+  "album": "Album",
+  "designer": "Designer",
+  "wish_list": "Wish list",
+  "shop_to_collect": "Shop collection"
+}

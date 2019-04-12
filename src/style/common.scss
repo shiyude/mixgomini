@@ -1,0 +1,74 @@
+@import './var.scss';
+.flex {
+  display: flex;
+}
+
+.inline_flex {
+  display: inline-flex;
+}
+
+scroll-view {
+  width: 100%;
+  white-space: nowrap;
+}
+
+// 整个页面的滚动条优化
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+// 字体：简书字体，平滑抗锯齿
+text {
+  font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  -webkit-font-smoothing: subpixel-antialiase;
+}
+
+.view_shadow {
+  box-shadow: 0 3px 10px #ddd;
+}
+
+page {
+  height: 100%;
+}
+
+;
+.wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+.background_f0f0f0 {
+  background-color: $f0f0f0;
+}
+
+.background_fff {
+  background-color: $fff;
+}
+
+.text_overflow {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn_div {
+  text-align: center;
+  margin-top: 10rpx;
+  text {
+    display: inline-block;
+    color: #eee;
+    font-size: 32rpx;
+    background-color: #2ac6f7;
+    width: 90%;
+    height: 80rpx;
+    line-height: 80rpx;
+    border-radius: 20rpx;
+    box-shadow: 0 3px 10px #ddd;
+    &:active {
+      background-color: #00b2ee;
+    }
+  }
+}

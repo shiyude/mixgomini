@@ -1,0 +1,82 @@
+.screen_wrapper {
+  position: relative;
+  height: 100%;
+  .screen_scroll {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 80rpx;
+    .screen_item {
+      padding: 30rpx;
+      .title {
+        margin-bottom: 10rpx;
+        justify-content: space-between;
+        align-items: center;
+        text {
+          font-size: 30rpx;
+          color: #000;
+        }
+        image {
+          height: 48rpx;
+          width: 48rpx;
+        }
+      }
+      .main {
+        flex-wrap: wrap;
+        .sing_select {
+          width: 18%;
+          margin: 10rpx 1%;
+          background-color: #eeeded;
+          height: 50rpx;
+          line-height: 50rpx;
+          justify-content: center;
+          border-radius: 5rpx;
+          align-items: center;
+          &.active {
+            background-color: #2ac6f7;
+            text {
+              color: #fff;
+            }
+          }
+          text {
+            font-size: 24rpx;
+            color: #2b2b2b;
+          }
+          image {
+            margin-left: 10rpx;
+            height: 24rpx;
+            width: 24rpx;
+          }
+        }
+      }
+    }
+  }
+  .bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80rpx;
+    div {
+      flex: 1;
+      text-align: center;
+      line-height: 80rpx;
+      &.reset {
+        background-color: #eeeded;
+        text {
+          color: #2b2b2b;
+        }
+      }
+      &.sure {
+        background-color: #2ac6f7;
+        text {
+          color: #fff;
+        }
+      }
+      text {
+        font-size: 30rpx;
+      }
+    }
+  }
+}

@@ -1,0 +1,85 @@
+.store_detail_wrapper {
+  .store_image {
+    image {
+      height: 450rpx;
+      width: 100%;
+      display: block;
+    }
+  }
+  .store_popularity {
+    padding: 30rpx 0;
+    .store_logo {
+      height: 120rpx;
+      width: 120rpx;
+      margin: 0 30rpx;
+    }
+    .popularity_right {
+      flex-direction: column;
+      .name {
+        font-size: 36rpx;
+        color: #2b2b2b;
+      }
+      .praise_collection {
+        margin-top: 10rpx;
+        div {
+          flex-direction: column;
+          align-items: center;
+          &.praise {
+            image {
+              height: 44rpx;
+              width: 44rpx;
+            }
+          }
+          &.collection {
+            margin-left: 80rpx;
+            image {
+              height: 48rpx;
+              width: 48rpx;
+            }
+          }
+          text {
+            font-size: 18rpx;
+            color: #2b2b2b;
+          }
+        }
+      }
+    }
+  }
+  .store_detail {
+    padding: 0 30rpx 30rpx;
+    justify-content: space-between;
+    align-items: center;
+    text {
+      font-size: 24rpx;
+      color: #808080;
+      &.call_phone {
+        color: #2ac6f7;
+      }
+    }
+    .detail_left {
+      div {
+        align-items: center;
+        margin-bottom: 20rpx;
+        image {
+          height: 25rpx;
+          width: 25rpx;
+          margin-right: 10rpx;
+        }
+        &.address {
+          image {
+            height: 30rpx;
+          }
+        }
+      }
+    }
+    .detail_right {
+      flex-direction: column;
+      align-items: center;
+      image {
+        height: 29rpx;
+        width: 29rpx;
+        margin-bottom: 10rpx;
+      }
+    }
+  }
+}

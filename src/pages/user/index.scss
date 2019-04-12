@@ -1,0 +1,104 @@
+.user_wrapper {
+  .top_section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 330rpx;
+    z-index: 999;
+    border-bottom: 1px solid #f0f0f0;
+    .head {
+      padding: 20rpx 30rpx 10rpx;
+      height: 174rpx;
+      box-sizing: border-box;
+      background-color: #2ac6f4;
+      align-items: center;
+      justify-content: space-between;
+      .user_left {
+        align-items: center;
+      }
+      .user_image_div {
+        .user_image {
+          width: 100rpx;
+          height: 100rpx;
+          display: block;
+          border-radius: 50%;
+        }
+      }
+      .user_message {
+        flex-direction: column;
+        margin-left: 30rpx;
+        text {
+          margin: 15rpx;
+          color: #fff;
+          &.name {
+            font-size: 30rpx;
+          }
+          &.num {
+            font-size: 24rpx;
+          }
+        }
+      }
+      .login_register {
+        margin-left: 30rpx;
+        text {
+          font-size: 30rpx;
+          color: #fff;
+        }
+      }
+      .pointer {
+        height: 36rpx;
+        width: 36rpx;
+      }
+    }
+    .user_nav {
+      padding: 28rpx 40rpx 24rpx;
+      height: 156rpx;
+      box-sizing: border-box;
+      .inline_flex {
+        flex-direction: column;
+        align-items: center;
+        flex: 1;
+        image {
+          height: 52rpx;
+          width: 50rpx;
+        }
+        text {
+          font-size: 24rpx;
+          margin-top: 20rpx;
+          &.kefu {
+            color: #e3da4f;
+          }
+          &.bangzhu {
+            color: #eb6877;
+          }
+          &.shouchang {
+            color: #c490bf;
+          }
+          &.zuji {
+            color: #88c673;
+          }
+          &.mixgo {
+            color: #2ac6f4;
+          }
+        }
+      }
+    }
+  }
+  .command {
+    position: absolute;
+    top: 330rpx;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    .title {
+      color: #474747;
+      font-size: 30rpx;
+      padding: 30rpx;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "title": {
+    "home": "首页",
+    "city": "切换城市",
+    "goodsSearch": "商品分类",
+    "screen": "品牌",
+    "store": "门店实体",
+    "storeDetail": "门店详情",
+    "panoramic": "全景创意",
+    "goodDetail": "产品详情",
+    "find": "发现",
+    "user": "我的",
+    "language": "语言",
+    "set": "设置",
+    "wx": "登录方式",
+    "login": "登录",
+    "registered": "注册",
+    "footprint": "我的足迹",
+    "collection": "我的收藏",
+    "accountSetting": "账户详情",
+    "changePassword": "修改密码",
+    "retrievePassword": "忘记密码",
+    "search": "搜索",
+    "latest": "今日新选",
+    "goodsSell": "特卖好物"
+  },
+  "tab": {
+    "home": "首页",
+    "find": "发现",
+    "user": "我的"
+  },
+  "home": {
+    "search": "搜索关键字",
+    "storeEntity": "门店实体",
+    "seeAll": "查看全部",
+    "todayNewSelection": "今日新选",
+    "panoramicCollocation": "全景搭配",
+    "sellGoodThings": "特卖好物",
+    "notNet": "网络开小差啦！刷新试试",
+    "refresh": "点击刷新",
+    "china": "中国",
+    "singapore": "新加坡"
+  },
+  "city": {
+    "currentCity": "当前定位城市",
+    "search": "搜索",
+    "placeholder": "输入您要搜索的城市",
+    "noData": "没有搜索到相关的数据哦"
+  },
+  "goodsSearch": {
+    "navList": [
+      {
+        "text": "综合"
+      },
+      {
+        "text": "人气"
+      },
+      {
+        "text": "最新"
+      },
+      {
+        "text": "筛选"
+      }
+    ]
+  },
+  "screen": {
+    "reset": "重置",
+    "sure": "确定",
+    "open": "展开",
+    "close": "收起"
+  },
+  "storeDetail": {
+    "time": "营业时间：",
+    "phone": "门店电话："
+  },
+  "goodDetail": {
+    "code": "商品编号：",
+    "origin": "产地：",
+    "num": "货号：",
+    "brand": "品牌：",
+    "size": "尺寸：",
+    "website": "网址：",
+    "commodityDetails": "商品详情",
+    "ParameterSpecification": "参数规格"
+  },
+  "user": {
+    "nickName": "昵称",
+    "accountNumber": "账号",
+    "collection": "收藏",
+    "footprint": "足迹",
+    "mixgo": "MixGo",
+    "setUp": "设置",
+    "loginRegister": "点击登录/注册",
+    "recommended": "精品推荐"
+  },
+  "setup": {
+    "language": "切换语言",
+    "chinese": "中文",
+    "english": "英文",
+    "notSet": "未设置",
+    "boy": "男",
+    "girl": "女",
+    "personalData": "个人资料",
+    "headPortrait": "头像",
+    "nickname": "昵称",
+    "personalizedSignature": "个性签名",
+    "sex": "性别",
+    "birthday": "生日",
+    "profession": "职业",
+    "shippingAddress": "收货地址",
+    "accountSecurity": "账号安全",
+    "aboutUs": "关于我们"
+  },
+  "setlang": {
+    "chinese": "中文",
+    "english": "英文"
+  },
+  "wxcommand": {
+    "loginMethos": "推荐登入方式",
+    "account": "微信账号"
+  },
+  "login": {
+    "phone": "请输入手机号码",
+    "password": "请输入密码",
+    "login": "登录",
+    "sign": "立即注册",
+    "forgetPassword": "找回密码"
+  },
+  "register": {
+    "phone": "请输入手机号码",
+    "password": "输入密码（6-20位）",
+    "confirmPassword": "确认密码",
+    "immediatelyVerify": "立即验证",
+    "pleaseEnter": "请输入验证码 ",
+    "registered": "注册",
+    "hasAccount": "已有账号？",
+    "login": "立即登录"
+  },
+  "alert": {
+    "tokenErr": "账号已被迫下线，请重新登录",
+    "accountErr": "账号未登录",
+    "collected": "已添加收藏",
+    "cancelCollected": "已移除收藏",
+    "praise": "成功点赞",
+    "praised":"已点赞",
+    "footprint": "已移除足迹",
+    "verificationCode": "验证码已发送",
+    "loginSuccess": "注册成功",
+    "passwordChanged": "密码修改成功",
+    "phone": "手机号码错误",
+    "password": "密码格式错误",
+    "comparePass": "两次密码不一致",
+    "code": "验证码错误",
+    "ewm": "更多精彩，尽在APP",
+    "addressErr": "地址解析失败",
+    "loginPhone": "请输入手机号码",
+    "loginPassword": "请输入密码",
+    "loginFail":"登录失败，请重新登录"
+  },
+  "keySearch": {
+    "placeholder": "请输入关键字",
+    "search": "搜索"
+  },
+  "goodsList": {
+    "noData": "没有更多咯(^∇^*)"
+  },
+  "mixgo": {
+    "contactUs": "联系我们",
+    "ewm": "扫描二维码下载APP即可体验AR效果",
+    "des": "MixGo是新加坡首屈一指的AR(增强现实), VR(虚似现实)，AI(人工智能)综合科技公司，为不同行业提供最便捷的可视化解决方案。  通过AR技术让家居产品与真实环境完美结合， 给用户带来最直观、真实的视觉体验。",
+    "user": "刘先生",
+    "phone": "+86 18682220971",
+    "email": "enquiry@mixgo.com",
+    "position": "深圳市龙华新区万众路U创谷写字楼12楼B12-28"
+  },
+  "changePassword": {
+    "inputPassword": "输入新密码（6-20位）",
+    "updateAcknowledge": "确认修改",
+    "PasswordPrompt": "密码由6-20位字母、数字、特殊符号组成，注意大小写"
+  },
+  "retrievePassword": {
+    "done": "完成"
+  },
+  "album":"专辑汇",
+  "designer":"设计师",
+  "wish_list": "商品收藏",
+  "shop_to_collect": "店铺收藏"
+}
